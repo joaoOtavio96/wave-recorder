@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WaveRecorder": {
+      "commandName": "Project",
+      "commandLineArgs": "--channels-number 2 --sample-rate 48000 --sample-bits 16"
+    }
+  }
+}
