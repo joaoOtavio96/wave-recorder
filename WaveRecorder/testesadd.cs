@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WaveRecorder
 {
-    internal class FileName
+    internal class testesadd
     {
     }
 }

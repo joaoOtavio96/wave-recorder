@@ -35,6 +35,7 @@ public class WaveFile
         };
     }
 
+
     public FileMetadata Metadata { get; private set; }
     public IList<byte[]> File { get; private set; }
     public byte[] Riff => Encoding.ASCII.GetBytes("RIFF");
