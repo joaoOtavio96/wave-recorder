@@ -13,6 +13,7 @@ public class WaveRecorderApp : App<Options>
 
     public override void Init(Options args)
     {
+
         _captureModel = new CaptureModel()
         {
             ChannelsNumber = args.ChannelsNumber,

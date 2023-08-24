@@ -5,7 +5,7 @@ public class WaveFile
 {
     public WaveFile(short channelsNumber, int sampleRate, short sampleBits, byte[] data)
     {
-        int byteRate = sampleRate * channelsNumber * sampleBits / 8;
+        int byteRate = sampleRate * channelsNumber * sampleBits / 8;  
         short blockAlign = (short)(channelsNumber * sampleBits / 8);
         int subChunk2Size = data.Length * channelsNumber * sampleBits / 8;
         int fileSize = 4 + (8 + SubChunk1Size) + (8 + subChunk2Size) - 8;
